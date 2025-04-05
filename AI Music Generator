@@ -1,0 +1,36 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Genre & Mood Music Generator</title>
+</head>
+<body>
+  <h2>AI Music Generator </h2>
+  <form action="/generate" method="get">
+    <label>Genre:</label>
+    <select name="genre">
+      <option value="classical">Classical</option>
+      <option value="jazz">Jazz</option>
+      <option value="pop">Pop</option>
+    </select><br><br>
+
+    <label>Mood:</label>
+    <select name="mood">
+      <option value="happy">Happy</option>
+      <option value="sad">Sad</option>
+      <option value="calm">Calm</option>
+      <option value="energetic">Energetic</option>
+    </select><br><br>
+
+    <label>Language:</label>
+    <select name="Language">
+      <option value="Tamil">Tamil</option>
+      <option value="English">Engish</option>
+      <option value="Telugu">Telugu</option>
+    </select><br><br>
+
+
+    <button type="submit">Generate Music</button>
+  </form>
+</body>
+</html>
